@@ -1,0 +1,28 @@
+# llm-eval-harness configuration.
+# Prices are in USD and are the public list prices for a cheap chat model
+# (gpt-4o-mini class). Change them to match whatever model you compare against.
+retrieval:
+  # How many KB chunks the local model is allowed to look at per question.
+  top_k: 1
+
+scoring:
+  # A question counts as "passed" when at least this fraction of its
+  # expected keywords appear in the answer.
+  pass_threshold: 0.5
+
+pricing:
+  input_price_per_1k: 0.15
+  output_price_per_1k: 0.60
+  currency: USD
+
+openrouter:
+  # Used only with: python run_eval.py --model openrouter
+  # Requires the OPENROUTER_API_KEY environment variable.
+  model: "openai/gpt-4o-mini"
+  base_url: "https://openrouter.ai/api/v1/chat/completions"
+  # The knowledge base is pasted into the prompt; truncate it to this many
+  # characters so the request stays small and cheap.
+  max_context_chars: 6000
+
+run:
+  default_model: local

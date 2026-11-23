@@ -1,0 +1,20 @@
+{"question": "When was Blue Peak Coffee Roasters founded?", "expected_keywords": ["2018"], "category": "company"}
+{"question": "Who founded Blue Peak Coffee Roasters?", "expected_keywords": ["Maya Chen", "Jordan Okafor"], "category": "company"}
+{"question": "Where is the flagship Blue Peak store located?", "expected_keywords": ["Portland"], "category": "company"}
+{"question": "How many store locations does Blue Peak have?", "expected_keywords": ["three", "Portland", "Seattle", "Austin"], "category": "company"}
+{"question": "What is the Summit Blend?", "expected_keywords": ["Summit Blend", "medium roast"], "category": "products"}
+{"question": "Which Blue Peak coffee is a dark roast?", "expected_keywords": ["Midnight Dark", "dark roast"], "category": "products"}
+{"question": "Does Blue Peak sell decaf coffee?", "expected_keywords": ["Moonlight Decaf", "decaf"], "category": "products"}
+{"question": "What cold brew product does Blue Peak sell?", "expected_keywords": ["cold brew", "$4.50"], "category": "products"}
+{"question": "How much does a 12oz bag of Summit Blend cost?", "expected_keywords": ["$18"], "category": "pricing"}
+{"question": "How much is the Midnight Dark roast?", "expected_keywords": ["$20"], "category": "pricing"}
+{"question": "What is the monthly subscription price?", "expected_keywords": ["$16"], "category": "pricing"}
+{"question": "How much do you need to spend for free shipping?", "expected_keywords": ["$35", "free shipping"], "category": "pricing"}
+{"question": "What is Blue Peak's return policy?", "expected_keywords": ["30-day", "returns"], "category": "policies"}
+{"question": "Can I pause my coffee subscription?", "expected_keywords": ["pause anytime"], "category": "policies"}
+{"question": "How does the Peak Points loyalty program work?", "expected_keywords": ["Peak Points", "100 points", "$10"], "category": "policies"}
+{"question": "Are Blue Peak's coffee bags compostable?", "expected_keywords": ["compostable"], "category": "policies"}
+{"question": "What coffee-to-water ratio does Blue Peak recommend for pour-over?", "expected_keywords": ["1:16"], "category": "brewing"}
+{"question": "What water temperature should I use for pour-over?", "expected_keywords": ["200°F"], "category": "brewing"}
+{"question": "What grind size is best for pour-over?", "expected_keywords": ["medium-fine"], "category": "brewing"}
+{"question": "When are the Saturday coffee cuppings held?", "expected_keywords": ["Saturdays", "10am"], "category": "brewing"}
